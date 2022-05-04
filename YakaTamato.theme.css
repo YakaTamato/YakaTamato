@@ -1,0 +1,40 @@
+/**
+ * @name YakaTamato-Discord
+ * @version ersion: CS:GO
+ * @description Dobre dla progreserów
+ * @author YakaTamato
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+
+:root {
+	--accent-hue: 621;
+	--accent-saturation: 91%;
+	--accent-lightness: 51%;
+	--accent-text-color: rgb(180, 180, 180);
+	--accent-button-action: rgb(185, 0, 0)	-	*/
+	
+	--avatar-radius: 60%; /*	-	*/
+
+	--message-radius: 10px;
+	--message-padding-top: 3px;
+	--message-padding-side: 7px; /*	-	*/
+
+	--media-radius: 100px; /*	-	*/
+
+	--card-radius: 5px;
+	--card-radius-big: 30px; /*	-	*/
+
+	--popout-radius: 5px;
+	--popout-radius-big: 30px;
+}
+
+.theme-dark {
+	--saturation-modifier: 0.175;
+	--lightness-modifier: 0.2;
+}
+
+.theme-light {
+	--saturation-modifier: 0.4;
+	--lightness-modifier: 2.175;
+}
